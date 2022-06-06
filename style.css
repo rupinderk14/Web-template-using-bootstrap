@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9e7e7;
+}
+/* global-classes */
+.fsx{
+    font-size: 4rem;
+}
+.seporator{
+    width: 60px;
+    height: 4px;
+    margin-top: 2rem;
+}
+.p-left{
+    padding-left: 7rem;
+}
+/* hero-section */
+.hero-section h1{
+    font-size: 5rem;
+}
+.active{
+    font-weight: 600;
+}
+.user-img{
+   width: 80px;
+}
+/* media-qurei */
+@media screen and (max-width:1200px){
+    .hero-section h1{
+        font-size: 3.5rem;
+    }
+    .pt-mob{
+        padding-top: 2rem;
+    }
+    .fsx{
+        font-size: 3rem;
+    }
+    .p-left{
+        padding-left: 1rem;
+    }
+}
